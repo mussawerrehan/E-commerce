@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4add210-8c44-4f59-ae9f-c7c98bac4129" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/CategorieSpecsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/CategorieSpecsRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/CategoriesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/CategoriesRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/HistoricRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/HistoricRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/InfoUserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/InfoUserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/PictureRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/PictureRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/ProductsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/ProductsRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SocietyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SocietyRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SpecsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SpecsRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesProductRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Security/CustomAuthAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Security/CustomAuthAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Controller/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603710659625</updated>
-      <workItem from="1603710660646" duration="3992000" />
+      <workItem from="1603710660646" duration="4656000" />
     </task>
     <servers />
   </component>
