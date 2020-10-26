@@ -97,7 +97,7 @@ class CustomAuthAuthenticator extends AbstractFormLoginAuthenticator implements 
         }
 
         // redirect to some "app_homepage" route - of wherever you want
-        return new RedirectResponse($this->urlGenerator->generate('easyadmin'));
+        return new RedirectResponse($this->urlGenerator->generate('products'));
     }
 
     protected function getLoginUrl()

@@ -2,41 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4add210-8c44-4f59-ae9f-c7c98bac4129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/CategorieSpecs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Historic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/InfoUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Picture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Society.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Specs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/SubCategories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/SubCategoriesProduct.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../the_spacebar/public/js/article_show.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../the_spacebar/templates/article/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../the_spacebar/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SymfArt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cart" beforeDir="false" afterPath="$PROJECT_DIR$/../cart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/Category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/Product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/Tag.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/CategoryRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/ProductRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/TagRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/CategorieSpecsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/CategorieSpecsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/CategoriesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/CategoriesRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/HistoricRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/HistoricRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/InfoUserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/InfoUserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/PictureRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/PictureRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/ProductsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/ProductsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SocietyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SocietyRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SpecsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SpecsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesProductRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/SubCategoriesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/UserRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sblylo/src/Security/CustomAuthAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Security/CustomAuthAuthenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/symfony2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/the_spacebar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/the_spacebar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/src/Controller/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,11 +165,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603710659625</updated>
-      <workItem from="1603710660646" duration="2616000" />
+      <workItem from="1603710660646" duration="3992000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="236" width="964" height="668" key="find.popup" timestamp="1603717345778">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="580" y="236" width="964" height="668" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1603717345778" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1603716784691">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1603716784691" />
   </component>
 </project>
