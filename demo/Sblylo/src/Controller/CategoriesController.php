@@ -3,7 +3,9 @@
 namespace App\Controller;
 
 use App\Entity\Categories;
+use App\Form\CategoriesType;
 use App\Repository\CategoriesRepository;
+use AppTestBundle\Entity\UnitTests\Category;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -32,8 +34,6 @@ class CategoriesController extends AbstractController
     {
         $em = $this->getDoctrine()->getManager();
 
-        $category = new Categories();
-
         $title = $request->request->get('_title');
         $picture = $request->request->get('_picture');
 
@@ -51,7 +51,12 @@ class CategoriesController extends AbstractController
      */
     public function createNew(CategoriesRepository $categoriesRepository)
     {
-        return $this->render('categories/new.html.twig');
+//        $form = new CategoriesType();
+        $category = new Categories();
+        $form = $this->createForm(CategoriesType::class, $category);
+        return $this->render('categories/new.html.twig' , [
+            'form' => $form->createView()
+        ]);
     }
 
     /**

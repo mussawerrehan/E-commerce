@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe7258b-76b3-4138-b33c-45347ea853dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,10 +152,21 @@
       <workItem from="1602080523095" duration="782000" />
       <workItem from="1602153090993" duration="1621000" />
       <workItem from="1602225301686" duration="4248000" />
+      <workItem from="1603725033844" duration="1839000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="627" y="254" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603726612082">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="627" y="254" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603726612082" />
+    <state x="580" y="236" width="892" height="634" key="find.popup" timestamp="1603725250412">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="580" y="236" width="892" height="634" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1603725250412" />
   </component>
 </project>
