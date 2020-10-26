@@ -37,6 +37,7 @@ class CategoriesController extends AbstractController
         $title = $request->request->get('_title');
         $picture = $request->request->get('_picture');
 
+        $category = new Categories();
         $category->setTitle($title);
         $category->setPicture($picture);
 
