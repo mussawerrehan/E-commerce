@@ -4,8 +4,6 @@ namespace App\Controller;
 
 use App\Entity\Categories;
 use App\Repository\CategoriesRepository;
-use JMS\Serializer\SerializerBuilder;
-use JMS\Serializer\SerializationContext;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -20,13 +18,10 @@ class CategoriesController extends AbstractController
      */
     public function index(CategoriesRepository $categoriesRepository): Response
     {
-//        $categories = $categoriesRepository->findAll();
-//        $serializer = SerializerBuilder::create()->build();
-//        $reponse = $serializer->serialize($categories, 'json');
-//        $reponse = json_decode($reponse);
-//        return new JsonResponse($reponse);
+
+        $categories = $categoriesRepository->findAll();
         return $this->render('categories/index.html.twig', [
-            'controller_name' => 'CategoriesController',
+            'categories' => $categories
         ]);
     }
 
@@ -48,7 +43,15 @@ class CategoriesController extends AbstractController
         $em->persist($category);
         $em->flush();
 
-        return new JsonResponse(['success' => 'Categorie created']);
+        return $this->redirectToRoute('categories_index');
+    }
+
+    /**
+     * @Route("/categories/new", name="new_category_form", methods={"GET"})
+     */
+    public function createNew(CategoriesRepository $categoriesRepository)
+    {
+        return $this->render('categories/new.html.twig');
     }
 
     /**
@@ -56,10 +59,9 @@ class CategoriesController extends AbstractController
      */
     public function show(Categories $category): Response
     {
-        $serializer = SerializerBuilder::create()->build();
-        $reponse = $serializer->serialize($category, 'json');
-        $reponse = json_decode($reponse);
-        return new JsonResponse($reponse);
+        return $this->render('categories/show.html.twig',[
+            'category' => $category
+        ]);
     }
 
     /**
@@ -77,7 +79,9 @@ class CategoriesController extends AbstractController
         $em->persist($category);
         $em->flush();
 
-        return new JsonResponse(['success' => 'Categorie edited']);
+        return $this->render('categories/edit.html.twig', [
+           'category' => $category
+        ]);
     }
 
     /**

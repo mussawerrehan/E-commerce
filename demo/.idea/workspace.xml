@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a4add210-8c44-4f59-ae9f-c7c98bac4129" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sblylo/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sblylo/src/Controller/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Controller/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/templates/categories/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/templates/categories/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
