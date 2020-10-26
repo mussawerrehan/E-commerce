@@ -2,18 +2,20 @@
 
 namespace App\Entity;
 
-use App\Repository\UserRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
- * @ORM\Entity(repositoryClass=UserRepository::class)
+ * @ORM\Entity(repositoryClass="App\Repository\UserRepository")
  */
 class User implements UserInterface
 {
     /**
-     * @ORM\Id
-     * @ORM\GeneratedValue
+     * @ORM\Id()
+     * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
     private $id;
@@ -31,8 +33,24 @@ class User implements UserInterface
     /**
      * @var string The hashed password
      * @ORM\Column(type="string")
+     * @Assert\Length(min="8", minMessage="Votre mot de passe doit faire au minimum 8 caractères")
      */
     private $password;
+
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Historic", mappedBy="user", orphanRemoval=true)
+     */
+    private $historics;
+
+    /**
+     * @ORM\OneToOne(targetEntity="App\Entity\InfoUser", inversedBy="user", cascade={"persist", "remove"})
+     */
+    private $infoUser;
+
+    public function __construct()
+    {
+        $this->historics = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -68,8 +86,6 @@ class User implements UserInterface
     {
         $roles = $this->roles;
         // guarantee every user at least has ROLE_USER
-        $roles[] = 'ROLE_USER';
-
         return array_unique($roles);
     }
 
@@ -111,7 +127,47 @@ class User implements UserInterface
         // If you store any temporary, sensitive data on the user, clear it here
         // $this->plainPassword = null;
     }
-    public function __toString(){
-        return $this->email;
+
+    /**
+     * @return Collection|Historic[]
+     */
+    public function getHistorics(): Collection
+    {
+        return $this->historics;
+    }
+
+    public function addHistoric(Historic $historic): self
+    {
+        if (!$this->historics->contains($historic)) {
+            $this->historics[] = $historic;
+            $historic->setUser($this);
+        }
+
+        return $this;
+    }
+
+    public function removeHistoric(Historic $historic): self
+    {
+        if ($this->historics->contains($historic)) {
+            $this->historics->removeElement($historic);
+            // set the owning side to null (unless already changed)
+            if ($historic->getUser() === $this) {
+                $historic->setUser(null);
+            }
+        }
+
+        return $this;
+    }
+
+    public function getInfoUser(): ?InfoUser
+    {
+        return $this->infoUser;
+    }
+
+    public function setInfoUser(?InfoUser $infoUser): self
+    {
+        $this->infoUser = $infoUser;
+
+        return $this;
     }
 }

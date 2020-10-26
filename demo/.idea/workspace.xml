@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4add210-8c44-4f59-ae9f-c7c98bac4129" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/CategorieSpecs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Historic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/InfoUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Picture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Society.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/Specs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/SubCategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sblylo/src/Entity/SubCategoriesProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the_spacebar/public/js/article_show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the_spacebar/templates/article/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../the_spacebar/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymfArt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart" beforeDir="false" afterPath="$PROJECT_DIR$/../cart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/Tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/CategoryRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/ProductRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/TagRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sblylo/src/Security/CustomAuthAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sblylo/src/Security/CustomAuthAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/symfony2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/the_spacebar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/the_spacebar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/src/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_spacebar/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../the_spacebar/symfony.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Sblylo/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/composer" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/Sblylo/vendor/symfony/dependency-injection" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jPfU3gOOf93WGTqpPSbPjfpxtp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sblylo/src/Entity" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sblylo/src/Entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sblylo/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4add210-8c44-4f59-ae9f-c7c98bac4129" name="Default Changelist" comment="" />
+      <created>1603710659625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603710659625</updated>
+      <workItem from="1603710660646" duration="2616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
